@@ -514,39 +514,25 @@ public sealed class ArrivalsSystem : EntitySystem
   private void SetupArrivalsStation()
 {
     var path = new ResPath(_cfgManager.GetCVar(CCVars.ArrivalsMap));
-    _mapSystem.CreateMap(out var mapId, runMapInit: false);
-    var mapUid = _mapSystem.GetMap(mapId);
+    _mapSystem.CreateMap(out var mapId1, runMapInit: false);
+    var mapUid1 = _mapSystem.GetMap(mapId1);
 
-    if (!_loader.TryLoadGrid(mapId, path, out var grid))
+    if (!_loader.TryLoadGrid(mapId1, path, out var grid))
         return;
 
-    _metaData.SetEntityName(mapUid, Loc.GetString("map-name-terminal"));
-
-    // Setup planet arrivals if relevant
-    if (_cfgManager.GetCVar(CCVars.ArrivalsPlanet))
-    {
-        var template = _random.Pick(_arrivalsBiomeOptions);
-        _biomes.EnsurePlanet(mapUid, _protoManager.Index(template));
-        var restricted = new RestrictedRangeComponent
-        {
-            Range = 32f
-        };
-        AddComp(mapUid, restricted);
-    }
-
-    _mapSystem.InitializeMap(mapId);
+    _metaData.SetEntityName(mapUid1, Loc.GetString("map-name-terminal"));
+    _mapSystem.InitializeMap(mapId1);
 
     // Setup for the ocean surface map
 
     var path2 = new ResPath(_cfgManager.GetCVar(CCVars.Arrivals2Map));
     _mapSystem.CreateMap(out var mapId2, runMapInit: false);
-    var mapUid2 = _mapSystem.GetMap(mapId);
+    var mapUid2 = _mapSystem.GetMap(mapId2);
 
     if (!_loader.TryLoadGrid(mapId2, path2, out var grid2))
         return;
 
     _metaData.SetEntityName(mapUid2, Loc.GetString("map-name-terminal"));
-
     _mapSystem.InitializeMap(mapId2);
 
 }
