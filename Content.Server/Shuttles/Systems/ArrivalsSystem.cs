@@ -506,22 +506,33 @@ public sealed class ArrivalsSystem : EntitySystem
     {
         // Setup arrivals station
         if (!Enabled)
+        {
+            Log.Error("Arrivals system not enabled roundstart, system unable to spawn grids");
             return;
+        }
 
         SetupArrivalsStation();
     }
 
   private void SetupArrivalsStation()
 {
+    Log.Info("Setting up grid spawns");
     var path = new ResPath(_cfgManager.GetCVar(CCVars.ArrivalsMap));
     _mapSystem.CreateMap(out var mapId1, runMapInit: false);
+    Log.Info($"Created map {mapId1} for sweetwater");
     var mapUid1 = _mapSystem.GetMap(mapId1);
 
     if (!_loader.TryLoadGrid(mapId1, path, out var grid))
+    {
+        Log.Error("Sweetwater grid has failed to load");
         return;
+    }
+
+    Log.Info($"Loaded {path} for sweetwater");
 
     _metaData.SetEntityName(mapUid1, Loc.GetString("map-name-terminal"));
     _mapSystem.InitializeMap(mapId1);
+    Log.Info("Sweetwater initialized");
 
     // Setup for the ocean surface map
 
@@ -529,20 +540,28 @@ public sealed class ArrivalsSystem : EntitySystem
     _mapSystem.CreateMap(out var mapId2, runMapInit: false);
     var mapUid2 = _mapSystem.GetMap(mapId2);
 
-    if (!_loader.TryLoadGrid(mapId2, path2, out var grid2))
-        return;
+    Log.Info($"Loading Waste Zone map ID {mapId2}");
 
+    if (!_loader.TryLoadGrid(mapId2, path2, out var grid2))
+    {
+        Log.Error("Waste Zone failed to load");
+        return;
+    }
+    
     _metaData.SetEntityName(mapUid2, Loc.GetString("map-name-terminal"));
     _mapSystem.InitializeMap(mapId2);
+    Log.Info("Waste Zone initialized properly");
 
 }
 
     private void SetArrivals(bool obj)
     {
         Enabled = obj;
+        Log.Info("Setting arrivals system");
 
         if (Enabled)
         {
+            Log.Info("Arrivals system properly enabled");
             SetupArrivalsStation();
             var query = AllEntityQuery<StationArrivalsComponent>();
 
@@ -553,6 +572,7 @@ public sealed class ArrivalsSystem : EntitySystem
         }
         else
         {
+            Log.Error("Arrivals system not enabled properly");
             var sourceQuery = AllEntityQuery<ArrivalsSourceComponent>();
 
             while (sourceQuery.MoveNext(out var uid, out _))
