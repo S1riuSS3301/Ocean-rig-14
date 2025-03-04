@@ -40,7 +40,7 @@ Ocean rig 14 - это уникальный проект от команды Etha
 ---
 
 <a name="english"></a>
-# 🚀 Ocean rig 14 [EN]
+# 🚀 Ocean rig 14 by Etharion Team [EN]
 
 Ocean rig 14 is a unique project by Etharion Team, representing a Space Station 14 fork with deep immersion in the ocean rig atmosphere. Here, everyone will find their place: from simple miners to experienced engineers, exploring new horizons of ocean possibilities!
 
