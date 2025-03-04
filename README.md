@@ -1,7 +1,7 @@
 # Ocean rig 14
 
 <p align="center">
-  <img alt="X Station Logo" width="256" height="256" src="xstation_logo.png" />
+  <img alt="X Station Logo" width="256" height="256" src="oceanrig_logo.png" />
 </p>
 
 <div align="center">
