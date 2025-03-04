@@ -1,71 +1,67 @@
+# X Station
 
-## Trieste Port
+<p align="center">
+  <img alt="X Station Logo" width="256" height="256" src="xstation_logo.png" />
+</p>
 
-Trieste Port is a fork of Space Station 14, taking place on a ex-nanotrasen oil rig repurposed into a corporate-free safe haven on an outer-rim frontier ocean planet. It focuses on the daily lives of the citizens of Trieste, both above and beneath the waves. Citizens face dangers such as Nanotrasen infiltrators, pirates, horrific deep-sea fauna, and the crushing depths of the abyss. Enjoy the chaos and adventure as you carve your story across the rusted hull of the platform.
+<div align="center">
+  
+[![Status](https://img.shields.io/badge/status-in%20development-yellow)](https://github.com/S1riuSS3301/XStationOrbitalSpark)
+[![Version](https://img.shields.io/badge/version-0.2-blue)](https://github.com/S1riuSS3301/XStationOrbitalSpark/releases)
+[![Created by](https://img.shields.io/badge/created%20by-Sirius-purple)](https://github.com/S1riuSS3301)
+[![Discord X Station](https://img.shields.io/discord/1234567890?color=7289DA&label=X%20Station&logo=discord&logoColor=white)](https://discord.gg/69XeTVfnzT)
+[![Discord Etharion](https://img.shields.io/discord/1234567890?color=7289DA&label=Etharion%20Team&logo=discord&logoColor=white)](https://discord.gg/w2gB8P782S)
 
-Our community discord where we announce events and playtests: https://discord.gg/Y8jM7fkxe3
+[English](#english) | [Русский](#русский) | [Server Rules](Resources/ServerInfo/Gameplay.txt) | [Introduction](Resources/ServerInfo/Intro.txt)
 
-TRIESTE PORT is also open-source, so anyone is free to contribute to the project! If you have questions or need help, don't hesitate to ask in the discord!
+</div>
 
-I also absolutely don't mind if other forks wish to use our code for their own projects. After all, SS14 is all about collaboration! As long as it's not code ported over from another fork, of course. See attributions.
+---
 
-## Building
+<a name="русский"></a>
+# 🚀 X Station [RU]
 
-1. Clone this repo.
-2. Run `RUN_THIS.py` to init submodules and download the engine.
-3. Compile the solution.
+X Station - это уникальный проект от команды Etharion Team, представляющий собой форк Space Station 14 с глубоким погружением в атмосферу космического фронтира. Здесь каждый найдет свое место: от простого шахтера до опытного инженера, исследуя новые горизонты мультистанционных возможностей!
 
-[More detailed instructions on building the project.](https://docs.spacestation14.com/en/general-development/setup.html)
+- 🎯 **Продвинутая баллистика**
+  > Новая система обработки снарядов и баллистики
 
-## License
+- 🔄 **Бесконечные смены**
+  > Уникальная система непрерывной игры
 
-All code for the content repository is licensed under [MIT](https://github.com/space-wizards/space-station-14/blob/master/LICENSE.TXT).
+## 🎮 Особенности сервера
+- Medium-Hard RP
+- Система вайтлиста
+- Активное комьюнити
 
-Code ported over from other forks is not owned by Trieste Port-14 and any modifications made to it must comply with the original license. For more information, see the Attributions section.
+## ⚠️ Правовая информация
+Данная сборка доступна исключительно для изучения в личных некоммерческих целях. Коммерческое использование разрешено только создателям, состоящим в команде Etharion Team.
 
-Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+---
 
-Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
+<a name="english"></a>
+# 🚀 X Station [EN]
 
-## Attributions
+X Station is a unique project by Etharion Team, representing a Space Station 14 fork with deep immersion in the space frontier atmosphere. Here, everyone will find their place: from simple miners to experienced engineers, exploring new horizons of multi-station possibilities!
 
-| Fork Name | Fork Repository | Code Used | Licence |
-| ------------- | ------------- | ------- | ------- |
-| Emberfall-14 | https://github.com/emberfall-14/emberfall.git | All folders and files in Content.Server, Content.Shared and Content.Client labeled "Bell". Space Elevator code. | MPL2 Exhibit B |
+- 🎯 **Advanced Ballistics**
+  > New projectile and ballistics processing system
 
+- 🔄 **Endless Shifts**
+  > Unique continuous gameplay system
 
-## Contributors
+## 🎮 Server Features
+- Medium-Hard RP
+- Active community
+- Regular updates
 
-TRIESTE PORT wouldn't be possible without all these wonderful people helping to make this project come to life.
+## ⚠️ Legal Information
+This build is available exclusively for personal, non-commercial study purposes. Commercial use is permitted only for creators who are members of the Etharion Team.
 
-Pixeltheaertist - Project Lead
+---
 
-Nolius - Programming, Debugging, General help
+<div align="center">
 
-Verslebas - Programming, Debugging
+**Powered by [Space Station 14](https://github.com/space-wizards/space-station-14) & [Robust Toolbox](https://github.com/space-wizards/RobustToolbox)**
 
-Lyroth - Programming, General help
-
-Lupino - Debugging, General help
-
-McJak - Antagonist Music
-
-Målingen - Spriting, Lore help, General help
-
-Quri1q - Spriting
-
-Legally Aquired Monvi Plushie - Foraging Design
-
-Puce - Programming
-
-Orks - Debugging, Refactoring
-
-TaoNewt - Bugfixing
-
-Moomoobeef - Mapping
-
-Ermucat - Programming
-
-Slckstr - Bugfixing
-
-FatherCheese - Programming
+</div>
