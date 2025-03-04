@@ -1,4 +1,4 @@
-# X Station
+# Ocean rig 14
 
 <p align="center">
   <img alt="X Station Logo" width="256" height="256" src="xstation_logo.png" />
@@ -19,9 +19,9 @@
 ---
 
 <a name="русский"></a>
-# 🚀 X Station [RU]
+# 🚀 Ocean rig 14 by Etharion Team [RU]
 
-X Station - это уникальный проект от команды Etharion Team, представляющий собой форк Space Station 14 с глубоким погружением в атмосферу космического фронтира. Здесь каждый найдет свое место: от простого шахтера до опытного инженера, исследуя новые горизонты мультистанционных возможностей!
+Ocean rig 14 - это уникальный проект от команды Etharion Team, представляющий собой форк Space Station 14 с глубоким погружением в атмосферу морской буровой платформы. Здесь каждый найдет свое место: от простого шахтера до опытного инженера, исследуя новые горизонты океанских возможностей!
 
 - 🎯 **Продвинутая баллистика**
   > Новая система обработки снарядов и баллистики
@@ -40,9 +40,9 @@ X Station - это уникальный проект от команды Ethario
 ---
 
 <a name="english"></a>
-# 🚀 X Station [EN]
+# 🚀 Ocean rig 14 [EN]
 
-X Station is a unique project by Etharion Team, representing a Space Station 14 fork with deep immersion in the space frontier atmosphere. Here, everyone will find their place: from simple miners to experienced engineers, exploring new horizons of multi-station possibilities!
+Ocean rig 14 is a unique project by Etharion Team, representing a Space Station 14 fork with deep immersion in the ocean rig atmosphere. Here, everyone will find their place: from simple miners to experienced engineers, exploring new horizons of ocean possibilities!
 
 - 🎯 **Advanced Ballistics**
   > New projectile and ballistics processing system
