@@ -1,4 +1,4 @@
-job-description-technical-assistant = Изучите основы управления энергоснабжением платформы, а также способы устранения затоплений.
+job-description-technical-assistant = Learn the basics of managing the platform's power, as well as sealing any floods.
 job-description-atmostech = Optimize the platoform's atmospherics setup, and synthesize rare gases to use or sell.
 job-description-bartender = Manage the bar and keep it lively, give out drinks, and listen to the resident's stories.
 job-description-basintech = Maintain expeditionary equipment and the comms relay. Repair old wrecks as FOBs for expeditions.
