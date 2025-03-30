@@ -8,7 +8,7 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Sweetwater"
+          mapNameTemplate: "Глубинная Гавань"
         - type: StationJobs
           availableJobs:
             StationAi: [ 1, 1 ]
