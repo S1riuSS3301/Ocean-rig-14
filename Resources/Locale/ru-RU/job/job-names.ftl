@@ -71,6 +71,7 @@ job-title-universal = универсальная
 JobAtmosphericTechnician = атмосферный техник
 JobBartender = бармен
 JobBorg = киборг
+JobBasinTech = техник-гидромелиоратор
 JobBotanist = ботаник
 JobBoxer = боксёр
 JobCaptain = капитан
