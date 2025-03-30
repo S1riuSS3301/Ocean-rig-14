@@ -1,10 +1,10 @@
 # Window Title
-space-elevator-console-title = Diving Bell Control
+space-elevator-console-title = Управление водолазной шлюпкой
 # Section Headers
-space-elevator-status-label = Status
-space-elevator-destinations-label = Destinations
-space-elevator-controls-label = Controls
+space-elevator-status-label = Статус
+space-elevator-destinations-label = Пункты назначения
+space-elevator-controls-label = Управление
 # Button Text
-space-elevator-ftl = Transfer
+space-elevator-ftl = Трансфер
 # Error States
-docking-console-no-shuttle = No Bell Connected
+docking-console-no-shuttle = Ошибка. Шлюпка не найдена
