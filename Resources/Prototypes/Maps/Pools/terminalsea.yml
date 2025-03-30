@@ -8,7 +8,7 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Sweetwater"
+          mapNameTemplate: "Глубинная гавань"
         - type: StationJobs
           availableJobs:
             #service
@@ -16,21 +16,22 @@
             Botanist: [ 2, 2 ]
             Chef: [ 1, 1 ]
             ServiceWorker: [ 2, 3 ]
-            #engineering
-            StationEngineer: [ 5, 5 ]
             #medical
             ChiefMedicalOfficer: [ 1, 1 ]
-            MedicalDoctor: [ 3, 3 ]
+            Chemist: [ 2, 2 ]
+            MedicalDoctor: [ 2, 2 ]
             MedicalIntern: [ 2, 2 ]
+            Paramedic: [ 1, 1 ]
             #security
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
-            SecurityOfficer: [ 6, 6 ]
-            SecurityCadet: [ 3, 3 ]
+            Detective: [ 1, 1 ]
+            SecurityOfficer: [ 3, 3 ]
+            SecurityCadet: [ 2, 2 ]
             #supply
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 2, 2 ]
-            CargoTechnician: [ 2, 2 ]
+            CargoTechnician: [ 1, 2 ]
             #civilian
             Passenger: [ -1, -1 ]
             Musician: [ 1, 1 ]
@@ -41,12 +42,16 @@
             Librarian: [ 1, 1 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
-            TechnicalAssistant: [ 3, 3 ]
+            TechnicalAssistant: [ 2, 2 ]
+            StationEngineer: [ 4, 4 ]
             #science
             ResearchDirector: [ 1, 1 ]
-            Scientist: [ 4, 4 ]
-            ResearchAssistant: [ 2, 2 ]
+            Scientist: [ 2, 3 ]
+            ResearchAssistant: [ 1, 2 ]
             #civilian
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
+            #silicon
+            Borg: [ 2, 2 ]
+            StationAi: [ 1, 1 ]
 
